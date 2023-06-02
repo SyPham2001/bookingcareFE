@@ -1,0 +1,66 @@
+.profile-doctor-container {
+  margin-top: -10px;
+
+  .intro-doctor-modal {
+    display: flex;
+
+    .content-left {
+      background: center center no-repeat;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+
+      background-size: cover;
+    }
+    .content-right {
+      width: calc(100% - 80px);
+
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+      .up {
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(17, 32, 238);
+      }
+      .down {
+        height: 50px;
+        font-size: 13px;
+      }
+    }
+  }
+  .view-detail-doctor {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    .view-position {
+      margin-left: 15px;
+
+      i {
+        margin-right: 5px;
+      }
+    }
+    .view-infor-doctor {
+      a {
+        text-decoration: none;
+        color: #1ab7c9;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 5px;
+      }
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .price {
+    font-weight: 600;
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 89px;
+
+    margin-top: -18px;
+    margin-bottom: 10px;
+  }
+}

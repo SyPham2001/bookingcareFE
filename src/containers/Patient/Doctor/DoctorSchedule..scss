@@ -1,0 +1,89 @@
+.doctor-schedule-container {
+  border-right: 1px solid #ddd;
+  height: 100%;
+  .all-schedule {
+    select {
+      border-bottom: 1px solid #ddd;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      outline: none;
+      cursor: pointer;
+      padding: 10px 0;
+      color: #337ab7;
+      font-weight: bold;
+
+      option {
+        cursor: pointer;
+        font-weight: 400;
+      }
+    }
+  }
+  .all-available-time {
+    .text-calender {
+      color: #333;
+      i {
+        margin-top: 10px;
+        margin-bottom: 15px;
+      }
+      span {
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #333;
+        font-weight: bold;
+        padding: 0;
+        margin: 0 0 5px 0;
+      }
+    }
+    .time-content {
+      .time-content-btns {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        .no-calendar {
+          font-weight: 600;
+          font-style: italic;
+          font-size: 15px;
+        }
+        .btn-schedule-vi {
+          padding: 10px 10px;
+          border: none;
+          outline: none;
+          background-color: #ffff66;
+          min-width: 140px;
+          border-radius: 3px;
+          color: #333;
+
+          &:hover {
+            background-color: #45c3d2;
+            color: #fff;
+          }
+        }
+        .btn-schedule-en {
+          padding: 10px 10px;
+          border: none;
+          outline: none;
+          background-color: #ffff66;
+          min-width: 160px;
+          border-radius: 3px;
+          color: #333;
+
+          &:hover {
+            background-color: #45c3d2;
+            color: #fff;
+          }
+        }
+      }
+    }
+    .book-free {
+      margin-top: 15px;
+      img {
+        width: 20px;
+        margin-top: -8px;
+        margin-left: 3px;
+        margin-right: 3px;
+      }
+    }
+  }
+}

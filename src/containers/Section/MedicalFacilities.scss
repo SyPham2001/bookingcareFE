@@ -1,0 +1,9 @@
+.clinic-child {
+  cursor: pointer;
+  .clinic-name {
+    padding: 4px 0;
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+}

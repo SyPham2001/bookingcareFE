@@ -1,0 +1,12 @@
+.handbook-child {
+  cursor: pointer;
+  display: flex !important;
+  flex-direction: row;
+
+  .specialty-name {
+    padding: 10px 0;
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+}
